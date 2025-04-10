@@ -17,10 +17,10 @@ Este repositório reúne todos os códigos que desenvolvi durante meu processo d
 ### 🧠 Ciência de Dados
 | Pasta | Descrição |
 |-------|-----------|
-| `tarefa-analise-exploratoria/` | Análise exploratória dos dados com Pandas, Matplotlib e Seaborn. |
+| `tarefa-analise-exploratoria/` | Análise exploratória de dados de rotas de ônibus com Pandas, Matplotlib e Seaborn. |
 | `tarefa-graficos/` | Criação de visualizações informativas com Matplotlib e Seaborn. |
 | `tarefa-limpeza/` | Limpeza e pré-processamento de dados com Pandas. |
-| `tarefa-aprendizado-supervisionado/` | Modelagem preditiva usando algoritmos supervisionados com scikit-learn. |
+| `tarefa-aprendizado-supervisionado/` | Modelagem preditiva para precificação de carros usando algoritmos supervisionados com scikit-learn. |
 
 ### 🧩 Modelagem de Dados e SQL
 | Pasta | Descrição |
