@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmar Exclusão</title>
+</head>
+<body>
+    <h1>Você tem certeza que deseja excluir a seguinte escola?</h1>
+    {{ tabela_html|safe }}
+    <form method="post">
+        <input type="hidden" name="DBN" value="{{ dbn }}">
+        <input type="submit" name="confirmo" value="Confirmar Exclusão">
+    </form>
+    <button onclick="location.href='/'">Voltar ao Início</button>
+</body>
+</html>

@@ -1,0 +1,42 @@
+Aeronave(Num_Registro, Num_Modelo, Num_ID, CPF)
+	FK(Num_Modelo) REFERENCES TipoAeronave(Num_Modelo)
+	FK(Num_ID) REFERENCES Hangar(Num_ID)
+	FK(CPF) REFERENCES Proprietário(CPF)
+	PK(Num_Registro)
+
+TipoAeronave(Num_Modelo, Capacidade, Peso)
+	PK(Num_Modelo)
+
+Hangar(Num_ID, Capacidade, Local)
+	PK(Num_ID)
+
+Pessoa (CPF, Nome, Data_Nascimento, Telefone)
+	PK(CPF)
+
+Proprietário(CPF, Endereco)
+	FK(CPF) REFERENCES Pessoa(CPF)
+	PK(CPF)
+
+Piloto(CPF, Num_Licenca)
+	FK(CPF) REFERENCES Pessoa(CPF)
+	PK(CPF, Num_Licenca)
+
+Funcionario(CPF, Salario, Turno)
+	FK(CPF) REFERENCES Pessoa(CPF)
+	PK(CPF)
+
+Manutenção(Num_Registro, Data, Num_Horas, Tipo)
+	FK(Num_Registro) REFERENCES Aeronave(Num_Registro)
+	PK(Num_Registro, Data)
+
+Faz(Num_Registro, Data, CPF)
+	FK(Num_Registro) REFERENCES Manutenção(Num_Registro)
+	FK(Data) REFERENCES Manutenção(Data)
+	FK(CPF) REFERENCES Funcionário(CPF)
+	PK(Num_Registro, Data, CPF)
+
+Autorizado(CPF, Num_Licenca, Num_Modelo)
+	FK(CPF) REFERENCES Piloto(CPF)
+	FK(Num_Licenca) REFERENCES Piloto(Num_Licenca)
+	FK(Num_Modelo) REFERENCES TipoAeronave(Num_Modelo)
+	PK(CPF, Num_Licenca, Num_Modelo)

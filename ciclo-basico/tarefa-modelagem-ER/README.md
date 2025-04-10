@@ -1,0 +1,9 @@
+# Tarefa Modelagem ER - Processo Dev. 2024.2 - UFRJ Analytica
+## Matheus Magalhães
+
+<div style='text-align: justify'>
+Nesta pasta, você encontrará o diagrama Entidade-Relacionamento que fiz para a 2a Tarefa do Processo de Trainee da Equipe de Desenvolvimento da UFRJ Analytica.
+O mini-mundo do Banco de Dados modelado é o seguinte:<br><br>
+O banco de dados de um pequeno aeroporto particular será usado para registrar aeronaves, seus proprietários, funcionários do aeroporto e pilotos. Cada aeronave tem um número de registro, é de um tipo de aeronave em particular e é mantido em um hangar em particular. Cada tipo de aeronave tem um número de modelo, uma capacidade e um peso. Cada hangar tem um número identificador, uma capacidade e um local. O banco de dados também deve registrar o(s) proprietário(s) de cada aeronave. Sobre proprietários, pilotos e funcionários deve ser guardado seu CPF, nome, data de nascimento e um número de telefone de contato. Um mesmo indivíduo pode ser proprietário, piloto e funcionário. Sobre cada piloto deve-se registrar o número de sua licença. Cada funcionário possui um salário e um turno de trabalho. Sobre o proprietário deve-se armazenar seu endereço. Deve-se registrar também a data em que cada proprietário comprou uma aeronave. Cada aeronave pode passar por serviços de manutenção muitas vezes. Tais serviços devem ser registrados incluindo a data da manutenção, o número de horas gastas no trabalho e o tipo de trabalho realizado. O número de registro da aeronave é usado para identificar um serviço de manutenção. Um mesmo serviço de manutenção pode ser executado por vários funcionários. O banco de dados também deve registrar os tipos de aviões que cada piloto é autorizado a voar.<br><br>
+A modelagem pode ser visualizada na imagem presente no diretório.
+</div>

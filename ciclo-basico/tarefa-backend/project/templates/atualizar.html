@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar Entrada</title>
+</head>
+<body>
+    <form method="post">
+        <input type="hidden" id="DBN" name="DBN" value="{{ escola['DBN'] }}"><br>
+        <label for="School_Name">Nome da Escola:</label><br>
+        <input type="text" id="School_Name" name="School_Name" value="{{ escola['School_Name'] }}"><br>
+        <label for="Number_of_Test_Takers">Número de Estudantes:</label><br>
+        <input type="number" id="Number_of_Test_Takers" name="Number_of_Test_Takers" value="{{ escola['Number_of_Test_Takers'] }}"><br>
+        <label for="Critical_Reading_Mean">Média de Leitura Crítica:</label><br>
+        <input type="text" id="Critical_Reading_Mean" name="Critical_Reading_Mean" value="{{ escola['Critical_Reading_Mean'] }}"><br>
+        <label for="Mathematics_Mean">Média de Matemática:</label><br>
+        <input type="text" id="Mathematics_Mean" name="Mathematics_Mean" value="{{ escola['Mathematics_Mean'] }}"><br>
+        <label for="Writing_Mean">Média de Escrita:</label><br>
+        <input type="text" id="Writing_Mean" name="Writing_Mean" value="{{ escola['Writing_Mean'] }}"><br><br>
+        <input type="submit" name="atualizar" value="Atualizar">
+    </form>
+    <button onclick="location.href='/'">Voltar ao Início</button>
+</body>
+</html>
