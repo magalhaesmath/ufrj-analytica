@@ -21,6 +21,7 @@ Este repositório reúne todos os códigos que desenvolvi durante meu processo d
 | `tarefa-graficos/` | Criação de visualizações informativas com Matplotlib e Seaborn. |
 | `tarefa-limpeza/` | Limpeza e pré-processamento de dados com Pandas. |
 | `tarefa-aprendizado-supervisionado/` | Modelagem preditiva para precificação de carros usando algoritmos supervisionados com scikit-learn. |
+| `tarefa-aprendizado-nao-supervisionado/` | Aplicação de algoritmos não supervisionados, como K-Means clustering e redução de dimensionalidade (PCA), com scikit-learn, para identificação de grupos de clientes bancários. |
 
 ### 🧩 Modelagem de Dados e SQL
 | Pasta | Descrição |
@@ -49,3 +50,4 @@ Este repositório reúne todos os códigos que desenvolvi durante meu processo d
 Desenvolvido durante o processo de capacitação da [UFRJ Analytica](https://ufrjanalytica.com)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-magalhães-6a356a282/)
+
