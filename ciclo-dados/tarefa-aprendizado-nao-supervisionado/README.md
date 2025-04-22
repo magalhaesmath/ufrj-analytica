@@ -18,7 +18,7 @@ Este projeto aplica técnicas de **redução de dimensionalidade** e **aprendiza
 
 ## 📁 Estrutura do Projeto
 
-📦 tarefa-aprendizado-nao-supervisionado 
+📦 tarefa-aprendizado-nao-supervisionado  
   ├── 📊 credit_card_customer_data.csv # Dataset com informações dos clientes.  
   ├── 📈 aprendizado-nao-supervisionado.ipynb # Notebook com EDA, PCA, K-Means e visualizações.    
   ├── 📃 README.md # Documentação do projeto.  
